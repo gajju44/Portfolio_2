@@ -1,0 +1,12 @@
+<svg width="82" height="96" viewBox="0 0 82 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M37.5 39V52.5V64H44V52.5V39H54.5V33H50.5H47H44H28V39H37.5Z" fill="#63FFDB"/>
+<path d="M41 3L2 25V70L41 93L80 71V26L41 3Z" stroke="#63FFDB" stroke-width="4"/>
+</svg>
+
+
+
+
+ <!-- <svg width="84" height="96" viewBox="0 0 84 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M39 39V52.5V64H44V52.5V39H55V34H51.5H48H45H29V39H39Z" fill="#63FFDB" className="fade-in"/>
+<path d="M42 3L3 25V70L42 93L81 71V26L42 3Z" stroke="#63FFDB" strokeWidth="4" className="draw-hexagon"/>
+</svg> -->
