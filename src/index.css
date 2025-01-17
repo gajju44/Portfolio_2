@@ -59,10 +59,33 @@ body {
   content: "▹";
   position: absolute;
   left: -19px;
-  top: 3.5px;
+  top: 4px;
   color: #64ffda;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 12px;
+}
+
+
+
+
+
+.underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  border-radius: 9999px;
+  bottom: 0px;
+  left: -1px;
+  background-color: #64ffdb84 ;
+  transform-origin: bottom right;
+  transition: transform 200ms ease-out;
+}
+
+.underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 
