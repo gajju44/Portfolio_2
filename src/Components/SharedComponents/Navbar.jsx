@@ -38,7 +38,7 @@ function Navbar() {
            
             <div className=' hidden lg:flex gap-8'>
                     { Navlinks.map((data,index)=>(
-                    <a key={index} href={data.Link} className='text-sm h-fit text-[#cbd5f5] hover:text-[#63ffdb]'><span className='text-[#63ffdb]'>0{index+1}. </span>{data.Text}</a>
+                    <a key={index} href={data.Link} className='text-sm h-fit text-[#cbd5f5] hover:text-[#63ffdb] transition-colors duration-500'><span className='text-[#63ffdb]'>0{index+1}. </span>{data.Text}</a>
                 ))}
                     
             </div>
