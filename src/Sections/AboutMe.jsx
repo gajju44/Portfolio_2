@@ -15,7 +15,7 @@ function AboutMe() {
             <div className="flex flex-col order-2 lg:order-1 gap-4">
 
             <p className="text-[#8892b0] text-base md:text-lg font-Stack2 lg:w-[480px] xl:w-[529px] ">
-              Hello! My name is Tanmayand I enjoy creating things that live on
+              Hello! My name is Tanmay and I enjoy creating things that live on
               the internet. I am a self-taught software engineer focused on
               creating high performant and scalable apps for the web and mobile.
               Other than developing things that live on the internet, I'm
