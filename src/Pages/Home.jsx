@@ -5,6 +5,7 @@ import Navbar from '../Components/SharedComponents/Navbar'
 import Intro from '../Sections/Intro'
 import AboutMe from '../Sections/AboutMe'
 import Experience from '../Sections/Experience'
+import Projects from '../Sections/Projects'
 function Home() {
  
   const [showHero, setShowHero] = useState(false);
@@ -33,6 +34,7 @@ function Home() {
   <Intro/>
   <AboutMe/>
   <Experience/>
+  <Projects/>
   
   </>
   )
