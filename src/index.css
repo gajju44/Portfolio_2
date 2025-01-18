@@ -7,7 +7,7 @@ font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   font-weight: 400;
   scrollbar-width: thin;
   scrollbar-color: #495670 transparent ;
-
+  scroll-behavior: smooth;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #0a182e;
@@ -30,6 +30,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .wrapper::after {
