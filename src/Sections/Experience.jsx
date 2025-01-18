@@ -20,7 +20,7 @@ function Experience() {
 
 
   const buttonRefs = useRef([]);
-const [active,setActive]=useState({top: '-4px', height: '',width: ''});
+const [active,setActive]=useState({top: '', height: '',width: ''});
 const [activeData,setActiveData]=useState(Simsoft)
 
 function handleClick(index,Data){
@@ -49,7 +49,7 @@ const [isMobile, setIsMobile] = useState(false);
 
 useEffect(() => {
   
-  const mediaQuery = window.matchMedia('(max-width: 768px)');
+  const mediaQuery = window.matchMedia('(max-width: 767px)');
 
   const handleMediaQueryChange = (e) => {
     setIsMobile(e.matches);
@@ -72,7 +72,7 @@ useEffect(() => {
 
             <div className='flex relative overflow-x-auto w-full md:w-auto md:flex-col h-fit border-t md:border-t-0 md:border-l border-[#233554] '>
 
-              <span className={` transition-all duration-500  absolute h-[2px] w-[66px] md:h-auto md:w-[2px]  bg-[#64ffda]`}
+              <span className={` transition-all duration-500  absolute h-[2px] w-[193px] md:h-[45px] md:w-[2px]  bg-[#64ffda]`}
               style={{
                 top: active.top,
                 height: active.height,
