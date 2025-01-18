@@ -11,7 +11,7 @@ function Projects() {
 
   return (
     <>
-      <div className='w-full min-h-screen pb-32 px-5 sm:px-12 lg:px-28 xl:px-40'>
+      <div id='Work' className='w-full min-h-screen pb-52 px-5 sm:px-12 lg:px-28 xl:px-40'>
         <div className="flex flex-col xl:mx-[80px] gap-10">
           <Heading Number="3" Heading="Some Things I’ve Built" />
 

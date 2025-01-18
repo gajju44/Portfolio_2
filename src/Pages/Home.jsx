@@ -6,6 +6,9 @@ import Intro from '../Sections/Intro'
 import AboutMe from '../Sections/AboutMe'
 import Experience from '../Sections/Experience'
 import Projects from '../Sections/Projects'
+import Footer from '../Components/SharedComponents/Footer'
+import GetInTouch from '../Sections/GetInTouch'
+
 function Home() {
  
   const [showHero, setShowHero] = useState(false);
@@ -35,6 +38,8 @@ function Home() {
   <AboutMe/>
   <Experience/>
   <Projects/>
+  <GetInTouch/>
+  <Footer/>
   
   </>
   )

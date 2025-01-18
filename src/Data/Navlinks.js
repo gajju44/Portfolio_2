@@ -11,10 +11,10 @@ export const Navlinks =[
         Text:'Work',
         Link:'#Work',
     },
-    {
-        Text:'Testimonials',
-        Link:'#Testimonials',
-    },
+    // {
+    //     Text:'Testimonials',
+    //     Link:'#Testimonials',
+    // },
     {
         Text:'Contact',
         Link:'#Contact',
