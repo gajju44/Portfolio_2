@@ -12,7 +12,7 @@ function Intro() {
             </h1>
 
             <h2 className=' text-[35px] md:text-[55px] leading-none lg:text-6xl xl:text-7xl font-Stack2 font-bold text-[#cbd5f5]'>
-            Tanmay Bhure.
+            Gajendra Naphade.
             </h2>
             <h3 className=' text-[35px] md:text-[55px] leading-none lg:text-6xl xl:text-7xl font-Stack2 font-bold text-[#8892b0]'>
             I build things for the web.
