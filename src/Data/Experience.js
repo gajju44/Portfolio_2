@@ -2,7 +2,7 @@
 
 export const Simsoft =
   {
-        Name:"Simsoft Technologies",
+        Name:"Demo Technologies",
         Link:"https://www.simsofttech.com/",
         Time:"May 2022 - July 2022",
         Position:"Software Engineer",
@@ -10,7 +10,7 @@ export const Simsoft =
   }
 export const PCCOE =
   {
-        Name:"PCCOE ACM Student Chapter",
+        Name:"Demo Student Chapter",
        Link:"https://www.pccoec.ac.in/",
         Time:"August 2024 - Present ",
         Position:"Software Engineer",
